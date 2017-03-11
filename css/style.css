@@ -78,20 +78,6 @@ iframe {font-family: 'Merriweather', Georgia, Times; font-size: 16px;}
 /* Code */
 pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
-.button {
-  font-size: 1em;
-  padding: 10px;
-  color: #000;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-.button:hover {
-  background: #06D85F;
-}
-
 .overlay {
   position: fixed;
   top: 0;
@@ -113,7 +99,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 80%;
   position: relative;
   transition: all 5s ease-in-out;
 }
