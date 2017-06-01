@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The need for Extensible anmd configurable Static Taint Tracking for C/C++"
+title: "The need for Extensible and configurable Static Taint Tracking for C/C++"
 date: 2017-05-31
 ---
 
