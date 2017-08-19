@@ -13,15 +13,63 @@ description: Aravind Machiry
 	<p>These are some tools which were developed as part of my research.
     All these tools are open-sourced. You are free to use them, but please cite
     the corresponding project for which the tool was originally developed.</p>
-    <h3>Dynodroid</h3>
-    <p>Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.</p>
-    <a href="/files/dd_use.pdf">User guide</a>, <a href="https://bitbucket.org/pag-lab/dynodroid">Source Repo</a>, <a href="#ddbib">BibTex</a><br>
+    <h3>DR.CHECKER</h3>
+    <p>DR.CHECKER implements a Soundy analysis technique for Linux Kernel drivers. It is a static-taint based bug finding tool for Linux kernel drivers. It scopes its analysis on only drivers resulting in very precise warnings. You can use it to find zero-days :)</p>
+    <a href="https://github.com/ucsb-seclab/dr_checker">Source Repo</a>, <a href="#drcheck">BibTex</a><br>
+    
+    <h3>BootStomp</h3>
+    <p>BootStomp is a boot-loader bug finder. It looks for two different class of bugs: memory corruption and state storage vulnerabilities. Similar to DR.CHECKER, You can use it to find zero-days :)</p>
+    <a href="https://github.com/ucsb-seclab/BootStomp">Source Repo</a>, <a href="#bootst">BibTex</a><br>
+    
     <h3>Boomerang</h3>
     <p>BOOMERANG, a class of vulnerabilities that stem from the semantic gap between the non-secure and secure worlds. BOOMERANG is a type of confused deputy attack, wherein a user-level application in the non-secure world can leverage a TA to read from or write to non-secure world memory that it does not own, including the untrusted OS’s. <br>
     We found exploitable BOOMERANG vulnerabilities in four TEE implementations. These vulnerabilities were detected using a combination of manual analysis and an automated static analysis tool, which is capable of locating potential vectors for exploiting BOOMERANG in a given TA. We were able to leverage vulnerabilities in two commercial TEE implementations to create proof-of-concept exploits. <br>
     we propose a novel defense Cooperative Semantic Reconstruction (CSR), which is capable of bridging the semantic gap between the two worlds with minimal modification and minimal overhead.</p>
      <a href="https://github.com/ucsb-seclab/boomerang">Source Repo</a>, <a href="#boombib">BibTex</a>
     
+    <h3>Dynodroid</h3>
+    <p>Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.</p>
+    <a href="/files/dd_use.pdf">User guide</a>, <a href="https://bitbucket.org/pag-lab/dynodroid">Source Repo</a>, <a href="#ddbib">BibTex</a><br>
+    <div id="drcheck" class="overlay">
+	<div class="popup">
+		<h2>DR.CHECKER USENIX Security 2017</h2>
+		<a class="close" href="#">&times;</a>
+		<div style="white-space: pre-wrap;">
+@inproceedings {203708,
+author = {Aravind Machiry and Chad Spensky and Jake Corina and Nick Stephens and Christopher Kruegel and Giovanni Vigna},
+title = {DR.CHECKER: A Soundy Analysis for Linux Kernel Drivers},
+booktitle = {26th USENIX Security Symposium (USENIX Security 17)},
+year = {2017},
+isbn = {978-1-931971-40-9},
+address = {Vancouver, BC},
+pages = {1007--1024},
+url = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/machiry},
+publisher = {USENIX Association},
+}
+		</div>
+	</div>
+	</div>
+	
+	<div id="bootst" class="overlay">
+	<div class="popup">
+		<h2>BootStomp USENIX Security 2017</h2>
+		<a class="close" href="#">&times;</a>
+		<div style="white-space: pre-wrap;">
+@inproceedings {203844,
+author = {Nilo Redini and Aravind Machiry and Dipanjan Das and Yanick Fratantonio and Antonio Bianchi and Eric Gustafson and Yan Shoshitaishvili and Christopher Kruegel and Giovanni Vigna},
+title = {BootStomp: On the Security of Bootloaders in Mobile Devices},
+booktitle = {26th USENIX Security Symposium (USENIX Security 17)},
+year = {2017},
+isbn = {978-1-931971-40-9},
+address = {Vancouver, BC},
+pages = {781--798},
+url = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/redini},
+publisher = {USENIX Association},
+}
+		</div>
+	</div>
+	</div>
+	
     <div id="boombib" class="overlay">
 	<div class="popup">
 		<h2>Boomerang NDSS 2017</h2>
