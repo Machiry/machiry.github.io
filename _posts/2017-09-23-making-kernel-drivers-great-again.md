@@ -27,7 +27,7 @@ Refer:https://github.com/ucsb-seclab/dr_checker , for the usage guide.
 2) Develop a smart fuzzer customized for the drivers. 
 
 While looking up existing work on fuzzing Linux kernel fuzzers, I found syzkaller by Google, which truly is a masterpiece and gold standard for fuzzing Linux kernel syscalls. However, one problem with it is that it requires the specification of driver interface. Such as device name, possible ioctl cmd ids and corresponding structures.
-Although this information could be easily specified by the driver developers, it is a non-trivial task for a security analyst to do this. We developed a technique called **DIFUZE (published in CCS 2017)** which retrieves the driver interface in an automated way. These interfaces could be used in syzkaller (recommended) or use our simple fuzzer called MangoFuzz to fuzz the drivers.
+Although this information could be easily specified by the driver developers, it is a non-trivial task for a security analyst to do this. We developed a technique called **DIFUZE (going to be published at CCS 2017)** which retrieves the driver interface in an automated way. These interfaces could be used in syzkaller (recommended) or use our simple fuzzer called MangoFuzz to fuzz the drivers.
 
 3) Develop a website where people can submit their kernel.tar.gz and it gives a self-contained docker image customized to analyze the kernel sources both statically and dynamically with a single command run.py.
 
