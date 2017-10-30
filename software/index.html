@@ -13,6 +13,12 @@ description: Aravind Machiry
 	<p>These are some tools which were developed as part of my research.
     All these tools are open-sourced. You are free to use them, but please cite
     the corresponding project for which the tool was originally developed.</p>
+    
+    <h3>DIFUZE</h3>
+    <p>DIFUZE is an interface aware fuzzer for Linux Kernel Drivers. It leverage static analysis to compose correctly-structured input in the userspace to explore kernel drivers. DIFUZE is fully automatic, ranging from identifying driver
+handlers, to mapping to device file names, to constructing complex argument instances. It also gives you interface information which can be used in syzkaller. You can use it to find zero-days :)</p>
+    <a href="https://github.com/ucsb-seclab/difuze">Source Repo</a>, <a href="#drfuzz">BibTex</a><br>
+    
     <h3>DR.CHECKER</h3>
     <p>DR.CHECKER implements a Soundy analysis technique for Linux Kernel drivers. It is a static-taint based bug finding tool for Linux kernel drivers. It scopes its analysis on only drivers resulting in very precise warnings. You can use it to find zero-days :)</p>
     <a href="https://github.com/ucsb-seclab/dr_checker">Source Repo</a>, <a href="#drcheck">BibTex</a><br>
@@ -30,6 +36,24 @@ description: Aravind Machiry
     <h3>Dynodroid</h3>
     <p>Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.</p>
     <a href="/files/dd_use.pdf">User guide</a>, <a href="https://code.google.com/archive/p/dyno-droid/">Source Repo</a>, <a href="https://drive.google.com/open?id=0B4XwT5D6qkNmVTd6VlVyaE9DbUE">VHD</a>, <a href="#ddbib">BibTex</a><br>
+    
+    <div id="drfuzz" class="overlay">
+	<div class="popup">
+		<h2>DIFUZE: Interface Aware Fuzzing for Kernel Drivers</h2>
+		<a class="close" href="#">&times;</a>
+		<div style="white-space: pre-wrap;">
+@inproceedings {difuzemachiry,
+author = {Jake Corina, Aravind Machiry, Christopher Salls, Yan Shoshitaishvili, Shuang Hao, Christopher Kruegel, Giovanni Vigna},
+title = {DIFUZE: Interface Aware Fuzzing for Kernel Drivers},
+booktitle = {24th ACM Conference on Computer and Communications Security (CCS 17)},
+year = {2017},
+address = {Texas, USA},
+publisher = {ACM},
+}
+		</div>
+	</div>
+	</div>
+	
     <div id="drcheck" class="overlay">
 	<div class="popup">
 		<h2>DR.CHECKER USENIX Security 2017</h2>
