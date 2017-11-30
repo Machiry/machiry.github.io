@@ -1,0 +1,65 @@
+#!/bin/sh -e
+
+case $1 in
+  prereqs)
+    exit 0
+   &nbsp;;;
+esac
+
+for x in $(cat /proc/cmdline); do
+  case $x in
+    root=*)
+      ROOTNAME=${x#root=}
+     &nbsp;;;
+    aufs=*)
+      UNION=${x#aufs=}
+        case $UNION in
+          LABEL=*)
+            UNION="/dev/disk/by-label/${UNION#LABEL=}"
+           &nbsp;;;
+          UUID=*)
+            UNION="/dev/disk/by-uuid/${UNION#UUID=}"
+           &nbsp;;;
+        esac    
+     &nbsp;;;
+  esac
+done
+
+echo "Union=$UNION"
+
+if [ -z "$UNION" ]; then
+    exit 0
+fi
+
+modprobe -b aufs &amp;&amp; echo "OK: modprobe -b aufs" || echo "ERR: modprobe -b aufs"
+
+# make the mount points on the init root file system
+mkdir /aufs /ro /rw &amp;&amp; echo "OK: mkdir /aufs /ro /rw" || echo "ERR: mkdir /aufs /ro /rw"
+
+# mount read-write file system
+if [ "$UNION" = "tmpfs" ]; then
+  mount -t tmpfs rw /rw -o noatime,mode=0755 &amp;&amp; echo "OK:  mount -t tmpfs rw /rw -o noatime,mode=0755 " || 
+echo "ERR:  mount -t  tmpfs rw /rw -o noatime,mode=0755"
+else
+  mount $UNION /rw -o noatime
+fi
+
+# move real root out of the way
+mount --move ${rootmnt} /ro &amp;&amp; echo "OK: mount --move ${rootmnt} /ro" || echo "ERR: mount --move ${rootmnt} /ro"
+
+mount -t aufs aufs /aufs -o noatime,dirs=/rw:/ro=ro &amp;&amp; echo "OK: mount -t aufs aufs /aufs -o noatime,dirs=/rw:/ro=ro" ||
+echo  "ERR: mount -t aufs aufs /aufs -o noatime,dirs=/rw:/ro=ro"
+
+# test for mount points on union file system
+[ -d /aufs/ro ] || mkdir /aufs/ro
+[ -d /aufs/rw ] || mkdir /aufs/rw
+
+mount --move /ro /aufs/ro &amp;&amp; echo "OK: mount --move /ro /aufs/ro" || echo "ERR: mount --move /ro /aufs/ro"
+mount --move /rw /aufs/rw &amp;&amp; echo "OK: mount --move /rw /aufs/rw" || echo "ERR: mount --move /rw /aufs/rw"
+
+# strip fstab off of root partition
+grep -v $ROOTNAME /aufs/ro/etc/fstab &gt; /aufs/etc/fstab
+
+mount --move /aufs /root &amp;&amp; echo "OK: mount --move /aufs /root" || echo "ERR: mount --move /aufs /root"
+
+exit 0
