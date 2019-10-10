@@ -4,6 +4,9 @@ title: "The need for Extensible and configurable Static Taint Tracking for C/C++
 date: 2017-05-31
 ---
 
+# Update: 
+> There is an open-source extensible framework: https://phasar.org/
+
 Taint Tracking, as the name implies is a technique to tracks the “taint” of the data throughout the program. The taint of the data is usually a binary attribute, as such can have Boolean values true/false or 1/0. There are other possible representations of the taint, which we ignore for simplicity. Most often taint is used to indicate whether the data is “controlled” by the user or not. Refer [1] for a comprehensive treatment of taint tracking.
 
 One of the most common use case of taint tracking is input validation vulnerability detection. i.e., checking whether the tainted data can reach a program point (or sensitive function) that expects untainted or non-tainted data. For ex: using tainted string as the source string in a strcpy call,  this can lead to overflow of the destination buffer. 
