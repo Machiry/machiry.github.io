@@ -11,9 +11,9 @@ title                    : "Aravind Machiry @ PurS3 Lab"
 title_separator          : "-"
 name                     : &name "Aravind Machiry"
 description              : &description "Assistant Professor at Purdue University"
-url                      : https://purs3lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://machiry.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "purs3lab.github.io"
+repository               : "machiry.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
