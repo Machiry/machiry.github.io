@@ -1,24 +1,21 @@
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" width="device-width, initial-scale=1.0">
-	<meta name="description" content="{{ page.description }}">
-	<meta name="author" content="Aravind Machiry (inspired from jmcglone)">
-	
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
-	<!-- favicon
-	<link rel="shortcut icon" href="/img/ico/favicon.png">
-	-->
-	<title>{{ page.title }} | Aravind Machiry | Phd Student.</title>		
-	<!-- styles -->
-	<link href="/css/bootstrap.css" rel="stylesheet">
-	<link href="/css/jumbotron-narrow.css" rel="stylesheet">
-	<link href="/css/style.css" rel="stylesheet">
-	
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-  <script src="../../assets/js/html5shiv.js"></script>
-  <script src="../../assets/js/respond.min.js"></script>
-	<![endif]-->
-	<!-- google analytics - i will not share this data with google -->
-	{% include analytics.html %}	
-</head>
+{% include base_path %}
+
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">

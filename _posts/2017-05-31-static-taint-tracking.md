@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "The need for Extensible and configurable Static Taint Tracking for C/C++"
 date: 2017-05-31
+permalink: /posts/2017/05/static-taint-tracking/
+tags:
+  - Static analysis
+  - LLVM
 ---
 
 # Update: 

@@ -1,8 +1,12 @@
 ---
-layout: post
 title: "Making Kernel Drivers Great Again"
 date: 2017-09-23
+permalink: /posts/2017/09/kernel-drivers/
+tags:
+  - Linux Kernel
+  - Vulnerability Detection
 ---
+
 Project: MKDGA
 
 Kernel drivers were once good. A few years ago (circa 2008), Security issues in the Linux kernel were mostly in the non-driver components. Most of us thought Linux kernel is getting better w.r.t security.

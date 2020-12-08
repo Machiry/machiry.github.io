@@ -1,7 +1,10 @@
 ---
-layout: post
 title: "Kernel Debugging Ubuntu 16.04"
 date: 2020-08-24
+permalink: /posts/2020/08/ubuntu-kernel-debug/
+tags:
+  - Kernel Debugging Setup
+  - Ubuntu 16.04
 ---
 
 > All the following steps are tested on Ubuntu 16.04
