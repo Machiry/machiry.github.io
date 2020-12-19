@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at Purdue University in the Electrical and Computer Engineering Department.
+I am an Assistant Professor and a founding member of [Purdue Systems and Software Security (PurS3) Lab](https://purs3lab.github.io/) at Purdue University in the Electrical and Computer Engineering Department.
 
 __I am looking for interns, PhD students, and Postdocs interested in the areas of Program analysis, vulnerability detection, IoT, Trustzone, Binary Analysis, or in general System Security. Please contact me if you are interested.__
 
