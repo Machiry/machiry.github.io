@@ -4,9 +4,7 @@ title: "Joining PurS3"
 author_profile: true
 ---
 
-## Students of Purdue
+We are always looking for new group members with passion, talent, and grit!
 
-## Interships
-
-## Others
+Please visit our [lab page](https://purs3lab.github.io/vacancies) for details.
 
