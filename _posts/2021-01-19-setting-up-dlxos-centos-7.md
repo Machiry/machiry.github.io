@@ -12,13 +12,15 @@ This post describes the steps to setup DLXOS needed for Purdue ECE 469 labs on C
 There are three steps here: Setting up VM, Install dependencies, and Setting up DLXOS tools.
 
 ## VM Setup
-1. Download the (Cent OS 7 Virtual Box Image)[https://sourceforge.net/projects/linuxvmimages/files/VirtualBox/C/7/CentOS_7.7.1908_VBG.zip/download]
-2. Extract the above folder and (import the .ova VM)[https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html]
+1. Download the [Cent OS 7 Virtual Box Image](https://sourceforge.net/projects/linuxvmimages/files/VirtualBox/C/7/CentOS_7.7.1908_VBG.zip/download)
+2. Extract the above folder and [import the .ova VM](https://docs.oracle.com/cd/E26217_01/E26796/html/qs-import-vm.html)
 > You may need to change the network adapter to NAT
+
 > Login into the VM with username: centos and password: centos
 
 
 > The following steps have to be run inside the VM.
+
 ## Install Dependencies
 ```
 sudo yum install glibc.i686
