@@ -14,9 +14,9 @@ __I am looking for interns, PhD students, and Postdocs interested in the areas o
 
 **Recent News**
 
+* __Arbitrar__got accepted at __S&P 2021 (2nd paper at the conference!!).__
 * Two papers: __Conware__ and __BRAN__ got accepted at __ASIA CCS 2021.__
 * __Zepollina__ got accepted at __S&P 2021.__
-* __Two papers__ got accepted at __CNS 2020.__
 
 My Research
 ------
