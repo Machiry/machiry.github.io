@@ -14,9 +14,10 @@ __I am looking for interns, PhD students, and Postdocs interested in the areas o
 
 **Recent News**
 
+* __SECROW__ got accepted at __WiSec 2021.__
 * __Glitching Demystifing__ got accepted at __DSN 2021.__
 * __Arbitrar__ got accepted at __S&P 2021 (2nd paper at the conference!!).__
-* Two papers: __Conware__ and __BRAN__ got accepted at __ASIA CCS 2021.__
+
 
 My Research
 ------
