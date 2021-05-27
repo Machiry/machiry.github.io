@@ -6,6 +6,7 @@ tags:
   - Academia
   - Writing
   - RelatedWork
+  - TrivialSuggestions
 ---
 
 
