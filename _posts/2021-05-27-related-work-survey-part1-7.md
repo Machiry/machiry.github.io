@@ -3,10 +3,10 @@ title: "Trivial Suggestions: Doing Effective Related Work (Part 1)"
 date: 2021-05-27
 permalink: /posts/2021/05/doing-related-work-part1/
 tags:
+  - TrivialSuggestions
   - Academia
   - Writing
   - RelatedWork
-  - TrivialSuggestions
 ---
 
 
