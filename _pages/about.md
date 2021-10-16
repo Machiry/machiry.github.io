@@ -14,9 +14,9 @@ __I am looking for interns, PhD students, and Postdocs interested in the areas o
 
 **Recent News**
 
+* __TARENHELM__ got accepted at __CheckMate 2021.__
 * __SECROW__ got accepted at __WiSec 2021.__
 * __Glitching Demystifing__ got accepted at __DSN 2021.__
-* __Arbitrar__ got accepted at __S&P 2021 (2nd paper at the conference!!).__
 
 
 My Research
