@@ -15,7 +15,7 @@ __I am looking for interns, PhD students, and Postdocs interested in the areas o
 **Recent News**
 
 * __GWChecker__ got conditionally accepted at __USENIX 2022.__
-* __DynStat__ got conditionally accepted at __DIMVA 2022.__
+* __DynStat__ got accepted at __DIMVA 2022.__
 * __PacJam__ got accepted at __AsiaCCS 2022.__
 
 
