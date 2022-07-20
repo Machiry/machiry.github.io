@@ -13,6 +13,7 @@ I am an Assistant Professor and a founding member of [Purdue Systems and Softwar
 __I am looking for interns, PhD students, and Postdocs interested in the areas of Program analysis, vulnerability detection, IoT, Trustzone, Binary Analysis, or in general System Security. Please contact me if you are interested.__
 
 **Recent News**
+
 * __TEEzz__ got accepted at __S&P 2023.__
 * __GWChecker__ got accepted at __USENIX 2022.__
 * __DynStat__ got accepted at __DIMVA 2022.__
