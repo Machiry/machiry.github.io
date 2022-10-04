@@ -14,9 +14,9 @@ __I am looking for interns, PhD students, and Postdocs interested in the areas o
 
 **Recent News**
 
+* __Cornucopia__ got accepted at __ASE 2022.__
 * __TEEzz__ got accepted at __S&P 2023.__
 * __GWChecker__ got accepted at __USENIX 2022.__
-* __DynStat__ got accepted at __DIMVA 2022.__
 
 
 My Research
