@@ -10,23 +10,18 @@ redirect_from:
 
 I am an Assistant Professor and a founding member of [Purdue Systems and Software Security (PurS3) Lab](https://purs3lab.github.io/) at Purdue University in the Electrical and Computer Engineering Department.
 
-__I am looking for interns, PhD students, and Postdocs interested in the areas of Program analysis, vulnerability detection, IoT, Trustzone, Binary Analysis, or in general System Security. Please contact me if you are interested.__
+I am interested in designing principled yet practical solutions to various system security problems.
+I work on the problems of vulnerability detection, prevention, and mechanisms for developing secure systems.
+My solutions have a flavor of static/dynamic program analysis, fuzzing, type systems, language-based techniques, machine learning, or a combination of the above.
 
-**Recent News**
-
-* __3c__ got Distinguished Paper Award at __OOPSLA 2022.__
-* __Cornucopia__ got accepted at __ASE 2022.__
-* __TEEzz__ got accepted at __S&P 2023.__
-
-
-My Research
-------
-I am interested in all aspects of System security and Program analysis. In particular, I work on applying static/dynamic program analysis and fuzzing to solve various system security problems.
-I am also interested in Binary analysis and exploring Machine Learning techniques
-to solve various problems with binary analysis.
+Refer [Research](./research) for current research directions.
 
 My research resulted in various Open-source security tools and several Common Vulnerability Exposures (CVEs) in critical system software such as kernel drivers and bootloaders.
 
-When time permits, I enjoy participating in Computer Security Capture the Flag (CTF) competitions with Shellphish, and I won third place with the Shellphish CGC team in the autonomous DARPA Cyber Grand Challenge.
+**Recent News**
+
+* __Spook__ got accepted at __Asia CCS 2023.__
+* __3c__ got Distinguished Paper Award at __OOPSLA 2022.__
+* __Cornucopia__ got accepted at __ASE 2022.__
 
 
