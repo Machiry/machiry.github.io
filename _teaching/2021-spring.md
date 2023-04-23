@@ -15,5 +15,5 @@ components of an Operating System.
 
 * Term(s): Spring 2021, 2022
 
-* Webpage: https://purs3lab.github.io/ee469/
+* Webpage: [https://purs3lab.github.io/ee469/](https://purs3lab.github.io/ee469/)
 
