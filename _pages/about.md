@@ -10,7 +10,7 @@ redirect_from:
 
 I am an Assistant Professor and a founding member of [Purdue Systems and Software Security (PurS3) Lab](https://purs3lab.github.io/) at Purdue University in the Electrical and Computer Engineering Department.
 
-I am interested in designing principled yet practical solutions to various system security problems.
+I am interested in designing principled yet practical solutions to system security problems.
 I work on the problems of vulnerability detection, prevention, and mechanisms for developing secure systems.
 My solutions have a flavor of static/dynamic program analysis, fuzzing, type systems, language-based techniques, machine learning, or a combination of the above.
 
