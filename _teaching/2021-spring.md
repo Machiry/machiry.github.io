@@ -13,7 +13,7 @@ components of an Operating System.
 
 * University: Purdue University
 
-* Term(s): Spring 2021, 2022
+  * Term(s): Spring 2021, 2022
 
-* Webpage: [https://purs3lab.github.io/ee469/](https://purs3lab.github.io/ee469/)
+  * Webpage: [https://purs3lab.github.io/ee469/](https://purs3lab.github.io/ee469/)
 
