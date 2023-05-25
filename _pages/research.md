@@ -27,7 +27,7 @@ The extreme diversity of CI platforms and the supported features further exacerb
 
 ### Supported By
 
-![Amazon and NSF](./images/amazonnsf.png)
+![Amazon and NSF](../images/amazonnsf.png)
 
 ## Mutation for the Masses
 ----
