@@ -4,6 +4,9 @@ title: "Research Areas"
 author_profile: true
 ---
 
+My research, in general, has an applied flavor --- where a principled solution is customized to the underlying domain
+to achieve both practical and (mostly) formal guarantees. 
+
 ## Embedded Systems Security
 ____
 Internet of Things (IoT) devices or, in general, embedded devices are ubiquitous and are part of our everyday life. 
@@ -32,14 +35,25 @@ Our work has identified over 100 security vulnerabilities in various embedded so
 * [Towards Rehosting Embedded Applications as Linux Applications (DSN Disrupt '23)](../files/dsndisrupt.pdf)
 
 ### Developer Support
+What challenges do developers face in engineering secure embedded systems?
+What mistakes do developers make in designing embedded systems?
+Can we develop tools and techniques to assist developers?
 
+These are a few questions we are exploring as part of this thrust.
 
 #### Publications
+* **On-going**: Rust for embedded systems -- current state, challenges, and open-problems.
+* [Towards Automated Identification of Layering Violations in Embedded Applications](../files/ncmas.pdf)
 
 ### Language Based Security
+In this thrust, we explore new language primitives that can enable the development of secure embedded systems.
+Specifically, new programming languages, additions to existing programming languages, new type systems, etc.
 
+The challenging aspect here is ensuring that our techniques align with embedded system constraints -- low overhead and backward compatibility (i.e., should work with existing codebase).
 
 #### Publications
+* **On-going**: Rust for embedded systems -- current state, challenges, and open-problems.
+* [Towards Automated Identification of Layering Violations in Embedded Applications](../files/ncmas.pdf)
 
 ### UEFI and Bootloaders Security
 
