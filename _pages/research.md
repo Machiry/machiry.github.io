@@ -4,8 +4,9 @@ title: "Research Areas"
 author_profile: true
 ---
 
-My research, in general, has an applied flavor --- where a principled solution is customized to the underlying domain
-to achieve both practical and (mostly) formal guarantees. 
+My research, in general, has an applied flavor.
+Specifically, a principled solution is customized to the underlying domain to
+achieve both practical and (mostly) formal guarantees. 
 
 ## Embedded Systems Security
 ____
@@ -52,11 +53,14 @@ Specifically, new programming languages, additions to existing programming langu
 The challenging aspect here is ensuring that our techniques align with embedded system constraints -- low overhead and backward compatibility (i.e., should work with existing codebase).
 
 #### Publications
-* **On-going**: Rust for embedded systems -- current state, challenges, and open-problems.
-* [Towards Automated Identification of Layering Violations in Embedded Applications](../files/ncmas.pdf)
+* **On-going**: Linear Types in Checked C.
+* [C to Checked C by 3c](../files/3c.pdf)
 
 ### UEFI and Bootloaders Security
-
+In this thrust, we focus on the security of UEFI/EDK-II components.
+Specifically, vulnerability detection and prevention.
+We are currently exploring dynamic analysis (fuzzing) based techniques to test DXE drivers and services holistically.
+We are also exploring techniques for automatically adding Checked C annotations to the UEFI codebase to prevent spatial safety vulnerabilities.
 ### Supported By
 
 ![DARPA](../images/darpa.jpeg) ![Rolls Royce](../images/rr.png)
