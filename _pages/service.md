@@ -8,22 +8,24 @@ I recognize the importance of giving back and encourage everyone to serve the ac
 
 I strive my best to do it and following are a few instances:
 
-### Technical Program Committee
+## Technical Program Committee
 
 > Reviewing and providing feedback on submitted papers.
 
-#### Conferences
+IEEE S&P (2024), ACM CCS (2023), ISOC NDSS (2024), ACSAC (2023), SecDev (2023), AsiaCCS (2023, 2022), Middleware (2022), RAID (2022), WOOT (2023, 2022), EuroSec(2023, 2022), ESORICS (2023)
 
-#### Workshops
-
-### Chair
+## Chair
 
 > Organizing (Reviews, Arranging Program, Funding, etc)
 
+BAR Workshop (Co-loated with NDSS) (2023, 2022)
 
-### University Service
+## University Service
 
 > Discussion and reviewing various department level proposals
 
-#### Purdue University (ECE Department)
+### Purdue University (ECE Department)
+
+* Undergraduate Curriculum Committee (Fall 2022 - Present).
+
 
