@@ -17,11 +17,19 @@ Similar to other system software, these are developed in unsafe languages, espec
 Research shows developers using these unsafe languages are prone to introduce security bugs.
 
 In this area, we focus on various areas targeted towards improving the security of embedded systems.
+Our research is along the following thrusts:
 
 ### Vulnerability Detection
+In this thrust, we focus on enabling scalable and precise vulnerability detection on embedded systems.
+Analysis techniques face unique challenges when dealing with embedded systems, such as asynchronous execution semantics and hardware dependence.
+We explore techniques such as staged static analysis, systematic testing, rehosting-based dynamic analysis, and machine learning for effective vulnerability detection.
 
+Our work has identified over 100 security vulnerabilities in various embedded software, including network stacks.
 
 #### Publications
+* **On-going**: Simple, yet effective technique to find security bugs at scale.
+* **On-going**: Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks
+* [Towards Rehosting Embedded Applications as Linux Applications (DSN Disrupt '23)](../files/dsndisrupt.pdf)
 
 ### Developer Support
 
