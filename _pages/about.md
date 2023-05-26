@@ -18,7 +18,7 @@ Refer [Research](./research) for current research directions.
 
 My research resulted in various Open-source security tools and several Common Vulnerability Exposures (CVEs) in critical system software such as kernel drivers and bootloaders.
 
-**Recent News**
+#### Recent News
 
 * __Spook__ got accepted at __Asia CCS 2023.__
 * __3c__ got Distinguished Paper Award at __OOPSLA 2022.__
