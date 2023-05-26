@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 My research, in general, has an applied flavor.
-Specifically, a principled solution is customized to the underlying domain to
+Specifically, a principled solution will be customized to the underlying domain to
 achieve both practical and (mostly) formal guarantees. 
 
 ## Embedded Systems Security
