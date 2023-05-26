@@ -12,13 +12,9 @@ achieve both practical and (mostly) formal guarantees.
 ____
 Internet of Things (IoT) devices or, in general, embedded devices are ubiquitous and are part of our everyday life. 
 We have been moving into an ecosystem of having several small, low-powered microcontroller or microcontroller unit (MCU) based devices connected directly to the internet or through a proxy.
-The adoption of these small MCU-based devices is growing rapidly and extensively, with an estimated more 
-than 50 billion devices.
 It is important to ensure that the RTOS and system software that runs as part of these systems
 is secure, and we can rely on it to perform the required mission-critical operations.
 Furthermore, security vulnerabilities in these systems are likely remotely triggerable.
-Similar to other system software, these are developed in unsafe languages, especially C and C++.
-Research shows developers using these unsafe languages are prone to introduce security bugs.
 
 In this area, we focus on various areas targeted towards improving the security of embedded systems.
 Our research is along the following thrusts:
@@ -33,6 +29,7 @@ Our work has identified over 100 security vulnerabilities in various embedded so
 #### Publications
 * **On-going**: Simple, yet effective technique to find security bugs at scale.
 * **On-going**: Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks
+* [TEEzz: Fuzzing Trusted Applications on COTS Android Devices (S&P '23)](../files/teezz.pdf)
 * [Towards Rehosting Embedded Applications as Linux Applications (DSN Disrupt '23)](../files/dsndisrupt.pdf)
 
 ### Developer Support
@@ -44,7 +41,7 @@ These are a few questions we are exploring as part of this thrust.
 
 #### Publications
 * **On-going**: Rust for embedded systems -- current state, challenges, and open-problems.
-* [Towards Automated Identification of Layering Violations in Embedded Applications](../files/ncmas.pdf)
+* [Towards Automated Identification of Layering Violations in Embedded Applications (LCTES '23)](../files/ncmas.pdf)
 
 ### Language Based Security
 In this thrust, we explore new language primitives that can enable the development of secure embedded systems.
@@ -54,7 +51,7 @@ The challenging aspect here is ensuring that our techniques align with embedded 
 
 #### Publications
 * **On-going**: Linear Types in Checked C.
-* [C to Checked C by 3c](../files/3c.pdf)
+* [C to Checked C by 3c (OOPSLA '22)](../files/3c.pdf)
 
 ### UEFI and Bootloaders Security
 In this thrust, we focus on the security of UEFI/EDK-II components.
@@ -84,4 +81,42 @@ In this area, we aim to addresses the problem by defining the desired security p
 
 ## Mutation for the Masses
 ----
+Current tools, such as AFL++ and libafl, revolutionalized mutation testing, especially Fuzzing.
+Traditionally, fuzzing has been mainly used for testing and bug finding.
+However, in this thrust, we explore various other uses and applications of fuzzing (i.e., mutation testing or stochastic search).
+We view fuzzing as a way to solve optimization problems intelligently. Provided we can precisely define the following: feedback on how close we are to the desired outcome, a way to map a stream of bytes to the solution space, and an oracle to identify the desired solution.
+
+In addition, we also explore other (more traditional) uses of fuzzing and apply it to dynamic testing of complex systems, such as IoT devices, Kernel Drivers, Network Programs, etc.
+We explore different techniques that will enable a security researcher to help the fuzzing techniques to test these complex programs effectively. We have exciting ideas in this direction. Get in touch to know more.
+
+#### Publications
+* **In Submission:** Feedback-Guided Software Fault Injection.
+* [Feedback Guided Generation of Binaries (FSE 2022)](../files/cornucopia.pdf)
+
+## Checked C and Friends
+----
+Checked C extends legacy C with checked pointer types that are restricted by the compiler to safe uses. Checked pointer types can coexist with legacy pointers, thus admitting incremental conversion of legacy C to Checked C, in the style of migratory typing. We are working on a technique to port an existing C program to Checked C by converting its pointers to have checked type.
+
+I am also collaborating with David Taditi on this.
+
+#### Publications
+* [C to Checked C by 3c (OOPSLA '22)](../files/3c.pdf)
+
+## Binary Analysis: Techniques and Applications
+----
+I am interested in binary analysis and have always been fascinated by the problems and possible applications.
+The ability to analyze executables and identify various semantic information is interesting and challenging.
+I use domain-specific techniques to solve common issues with binary analysis tasks.
+
+#### Publications
+* **In Submission:** Adaptive Verification of Binary Level Patches.
+* [Feedback Guided Generation of Binaries (FSE 2022)](../files/cornucopia.pdf)
+
+## Machine Learing + Security
+----
+Machine Learning (and Deep Learning) provides us very useful techniques to achieve best-effort solutions in the presence of a large corpus of data. Many problems in security are proven to be intractable; however, providing a best-effort solution is reasonable. On this front, we are exploring the use of various Machine Learning techniques to handle the problems of: Vulnerability Detecton, Prevention and Mobile Privacy.
+ 
+#### Publications
+* **In Submission:** Type Inference on Binaries.
+* [ARBITRAR: User-Guided API Misuse Detection (S&P '21)](../files/arbitrar.pdf)
 
