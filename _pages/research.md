@@ -27,8 +27,8 @@ We explore techniques such as staged static analysis, systematic testing, rehost
 Our work has identified over 100 security vulnerabilities in various embedded software, including network stacks.
 
 #### Publications
-* **On-going**: Simple, yet effective technique to find security bugs at scale.
-* **On-going**: Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks
+* [An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software ('23)](../files/emsast.pdf)
+* [Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks (ASE '23)](../files/emnest.pdf)
 * [TEEzz: Fuzzing Trusted Applications on COTS Android Devices (S&P '23)](../files/teezz.pdf)
 * [Towards Rehosting Embedded Applications as Linux Applications (DSN Disrupt '23)](../files/dsndisrupt.pdf)
 
@@ -72,7 +72,7 @@ In this area, we aim to addresses the problem by defining the desired security p
 
 ### Publications
 ----
-* **On-going**: Framework for Staged Static Taint Analysis of GitHub Workflows and Actions
+* [ARGUS: Framework for Staged Static Taint Analysis of GitHub Workflows and Actions (USENIX Security 2023)](../files/argus.pdf)
 * [Characterizing the Security of Github CI Workflows (USENIX Security 2022)](https://machiry.github.io/files/gwchecker.pdf) 
 
 ### Supported By

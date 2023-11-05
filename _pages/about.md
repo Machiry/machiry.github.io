@@ -20,8 +20,8 @@ My research resulted in various Open-source security tools and several Common Vu
 
 #### Recent News
 
-* __Spook__ got accepted at __Asia CCS 2023.__
-* __3c__ got Distinguished Paper Award at __OOPSLA 2022.__
-* __Cornucopia__ got accepted at __ASE 2022.__
+* __Dynodroid__ got Test of Time Award at __FSE 2023.__
+* __Amazon ARA Award (Fall 2022) for Security Verification of CI Workflows.__
+* __EMNEST__ got accepted at __ASE 2023.__
 
 
