@@ -1,8 +1,8 @@
 ---
 title: "Advanced C Programming"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/ose
+type: "Undergraduate course (Spring '23)"
+permalink: /teaching/adc
 location: "West Lafayette, USA"
 ---
 
