@@ -12,7 +12,7 @@ I strive my best to do it and following are a few instances:
 
 > Reviewing and providing feedback on submitted papers.
 
-IEEE S&P (2024), ACM CCS (2023), ISOC NDSS (2024), ACSAC (2023), SecDev (2023), AsiaCCS (2023, 2022), Middleware (2022), RAID (2022), WOOT (2023, 2022), EuroSec(2023, 2022), ESORICS (2023)
+USENIX Security (2024), IEEE S&P (2024), ACM CCS (2023), ISOC NDSS (2024), ACSAC (2023), SecDev (2023), AsiaCCS (2023, 2022), Middleware (2022), RAID (2022), WOOT (2023, 2022), EuroSec(2023, 2022), ESORICS (2023)
 
 ## Chair
 
