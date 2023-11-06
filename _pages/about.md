@@ -17,9 +17,9 @@ My solutions have a flavor of static/dynamic program analysis, fuzzing, type sys
 <hr>
 <div class="announcement" style="background-color: #c3ddf5; padding: 7px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#000000">
     <div class="announcement" style="background-color: #fff2cc; padding: 2px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#000000">
-  <p> 📣 I'm looking for PostDoc to join our group. </p></div>
+  <p> 📣 I'm looking for PostDocs to join our group. </p></div>
 
-  <p>We currently work on various areas of system security, such as Embedded systems, Bootloaders, static and dynamic program analysis. Refer <a target="_blank" href="https://purs3lab.github.io/research/">Research</a> for current research directions.</p>
+  <p>We currently work on various areas of system security, such as Embedded systems, Bootloaders, static and dynamic program analysis. Refer <a target="_blank" href="https://machiry.github.io/research/">Research</a> for current research directions.</p>
   <p> If you are interested in joining our lab, please do the following:</p>
   <ul>
     <li>Send me a brief <a target="_blank" href="mailto:amachiry@purdue.edu">
