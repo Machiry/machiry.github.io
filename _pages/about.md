@@ -14,6 +14,22 @@ I am interested in designing principled yet practical solutions to system securi
 I work on the problems of vulnerability detection, prevention, and mechanisms for developing secure systems.
 My solutions have a flavor of static/dynamic program analysis, fuzzing, type systems, language-based techniques, machine learning, or a combination of the above.
 
+<hr>
+<div class="announcement" style="background-color: #c3ddf5; padding: 7px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#000000">
+    <div class="announcement" style="background-color: #fff2cc; padding: 2px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#000000">
+  <p> 📣 I'm looking for PostDoc to join our group. </p></div>
+
+  <p>We currently work on various areas of system security, such as Embedded systems, Bootloaders, static and dynamic program analysis. </p>
+  <p> If you are interested in joining our lab, please do the following:</p>
+  <ul>
+    <li>Send me a brief <a target="_blank" href="amachiry@purdue.edu">
+        <u> email</u>
+      </a> with your CV attached. </li>
+    <li>Briefly describe why you want to join our group and include (0xF278EE379830) in the subject line. </li>
+  </ul>
+</div>
+<hr>
+
 Refer [Research](./research) for current research directions.
 
 My research resulted in various Open-source security tools and several Common Vulnerability Exposures (CVEs) in critical system software such as kernel drivers and bootloaders.
