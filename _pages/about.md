@@ -15,7 +15,7 @@ I work on the problems of vulnerability detection, prevention, and mechanisms fo
 My solutions have a flavor of static/dynamic program analysis, fuzzing, type systems, language-based techniques, machine learning, or a combination of the above.
 
 <hr>
-<div class="announcement" style="background-color: #2e4359; padding: 7px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#efe8e8">
+<div class="announcement" style="background-color: #9ab2d2; padding: 7px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#100d0d">
     <div class="announcement" style="background-color: #b66444; padding: 2px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#000000">
   <p> 📣 I'm looking for PostDocs to join our group. </p></div>
 
