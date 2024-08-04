@@ -33,9 +33,9 @@ My solutions have a flavor of static/dynamic program analysis, fuzzing, type sys
 My research resulted in various Open-source security tools and several Common Vulnerability Exposures (CVEs) in critical system software such as kernel drivers and bootloaders.
 
 #### Recent News
-
+* __[NSF CAREER Award (2024)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340548)__ for Securing Deeply Embedded Software.
+* __Tygr__ got accepted at __USENIX Security 2024__.
 * __Dynodroid__ got Test of Time Award at __FSE 2023.__
-* __Amazon ARA Award (Fall 2022) for Security Verification of CI Workflows.__
-* __EMNEST__ got accepted at __ASE 2023.__
+
 
 
