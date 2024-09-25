@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor and a founding member of [Purdue Systems and Software Security (PurS3) Lab](https://purs3lab.github.io/) at Purdue University in the Electrical and Computer Engineering Department.
+Aravind Machiry is an Assistant Professor and a founding member of [Purdue Systems and Software Security (PurS3) Lab](https://purs3lab.github.io/) at Purdue University in the Electrical and Computer Engineering Department.
+He is the recipient of a [NSF CAREER award](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340548), and [Amazon Research award](https://www.amazon.science/research-awards/recipients/aravind-machiry).
 
-I am interested in designing principled yet practical solutions to system security problems.
-I work on the problems of vulnerability detection, prevention, and mechanisms for developing secure systems.
-My solutions have a flavor of static/dynamic program analysis, fuzzing, type systems, language-based techniques, machine learning, or a combination of the above.
+He is interested in designing principled yet practical solutions to system security problems.
+He currently works on the problems of vulnerability detection, prevention, and mechanisms for developing secure systems.
+His solutions have a flavor of static/dynamic program analysis, fuzzing, type systems, language-based techniques, machine learning, or a combination of the above.
 
 <hr>
 <div class="announcement" style="background-color: #9ab2d2; padding: 7px; border: 1px #295bcc; border-radius: 10px; font-size: 16px;font-color:#100d0d">
