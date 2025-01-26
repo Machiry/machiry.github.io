@@ -32,9 +32,10 @@ His solutions have a flavor of static/dynamic program analysis, fuzzing, type sy
 <hr>
 
 #### Recent News
-* __VeriBin__ got accepted at __NDSS 2025__.
+* __2 papers (e3c and SAST for embedded)__ got accepted at __ISSTA 2025__.
+* __2 papers (FuzzUErr and VeriBin)__ got accepted at __NDSS 2025__.
 * __Rust for Embedded__ got accepted at __ACM CCS 2024__.
-* __[NSF CAREER Award (2024)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2340548)__ for Securing Deeply Embedded Software.
+* __TyGr__ got accepted at __USENIX Security 2024__.
 
 
 
