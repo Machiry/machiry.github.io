@@ -27,7 +27,7 @@ We explore techniques such as staged static analysis, systematic testing, rehost
 Our work has identified over 100 security vulnerabilities in various embedded software, including network stacks.
 
 #### Publications
-* [An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software ('23)](../files/emsast.pdf)
+* [An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software (ISSTA '25)](../files/emsast.pdf)
 * [Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks (ASE '23)](../files/emnest.pdf)
 * [TEEzz: Fuzzing Trusted Applications on COTS Android Devices (S&P '23)](../files/teezz.pdf)
 * [Towards Rehosting Embedded Applications as Linux Applications (DSN Disrupt '23)](../files/dsndisrupt.pdf)
@@ -40,7 +40,7 @@ Can we develop tools and techniques to assist developers?
 These are a few questions we are exploring as part of this thrust.
 
 #### Publications
-* **On-going**: Rust for embedded systems -- current state, challenges, and open-problems.
+* [Rust for embedded systems -- current state, challenges, and open-problems (CCS '24)](../files/rustembedccs.pdf).
 * [Towards Automated Identification of Layering Violations in Embedded Applications (LCTES '23)](../files/ncmas.pdf)
 
 ### Language Based Security
@@ -58,6 +58,10 @@ In this thrust, we focus on the security of UEFI/EDK-II components.
 Specifically, vulnerability detection and prevention.
 We are currently exploring dynamic analysis (fuzzing) based techniques to test DXE drivers and services holistically.
 We are also exploring techniques for automatically adding Checked C annotations to the UEFI codebase to prevent spatial safety vulnerabilities.
+
+#### Publications
+* [FuzzUEr: Enabling Fuzzing of UEFI Interfaces (NDSS '25)](../files/fuzzuerr.pdf).
+
 ### Supported By
 
 ![DARPA](../images/darpa.jpeg) ![Rolls Royce](../images/rr.png)
@@ -72,8 +76,8 @@ In this area, we aim to addresses the problem by defining the desired security p
 
 ### Publications
 ----
-* [ARGUS: Framework for Staged Static Taint Analysis of GitHub Workflows and Actions (USENIX Security 2023)](../files/argus.pdf)
-* [Characterizing the Security of Github CI Workflows (USENIX Security 2022)](https://machiry.github.io/files/gwchecker.pdf) 
+* [ARGUS: Framework for Staged Static Taint Analysis of GitHub Workflows and Actions (USENIX Security '23)](../files/argus.pdf)
+* [Characterizing the Security of Github CI Workflows (USENIX Security '22)](https://machiry.github.io/files/gwchecker.pdf) 
 
 ### Supported By
 
@@ -90,8 +94,8 @@ In addition, we also explore other (more traditional) uses of fuzzing and apply 
 We explore different techniques that will enable a security researcher to help the fuzzing techniques to test these complex programs effectively. We have exciting ideas in this direction. Get in touch to know more.
 
 #### Publications
-* **In Submission:** Feedback-Guided Software Fault Injection.
-* [Feedback Guided Generation of Binaries (FSE 2022)](../files/cornucopia.pdf)
+* [Feedback-Guided Software Fault Injection (AsiaCCS '24)](../files/fuzzerr.pdf)
+* [Feedback Guided Generation of Binaries (FSE '22)](../files/cornucopia.pdf)
 
 ## Checked C and Friends
 ----
@@ -109,14 +113,14 @@ The ability to analyze executables and identify various semantic information is 
 I use domain-specific techniques to solve common issues with binary analysis tasks.
 
 #### Publications
-* **In Submission:** Adaptive Verification of Binary Level Patches.
-* [Feedback Guided Generation of Binaries (FSE 2022)](../files/cornucopia.pdf)
+* [Adaptive Verification of Binary Level Patches (NDSS '25)](../files/veribin.pdf)
+* [Feedback Guided Generation of Binaries (FSE '22)](../files/cornucopia.pdf)
 
 ## Machine Learing + Security
 ----
 Machine Learning (and Deep Learning) provides us very useful techniques to achieve best-effort solutions in the presence of a large corpus of data. Many problems in security are proven to be intractable; however, providing a best-effort solution is reasonable. On this front, we are exploring the use of various Machine Learning techniques to handle the problems of: Vulnerability Detecton, Prevention and Mobile Privacy.
  
 #### Publications
-* **In Submission:** Type Inference on Binaries.
+* [Type Inference on Binaries (USENIX Security '24)](../files/tygrusenix2024.pdf)
 * [ARBITRAR: User-Guided API Misuse Detection (S&P '21)](../files/arbitrar.pdf)
 
