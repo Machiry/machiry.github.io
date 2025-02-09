@@ -24,7 +24,7 @@ In this thrust, we focus on enabling scalable and precise vulnerability detectio
 Analysis techniques face unique challenges when dealing with embedded systems, such as asynchronous execution semantics and hardware dependence.
 We explore techniques such as staged static analysis, systematic testing, rehosting-based dynamic analysis, and machine learning for effective vulnerability detection.
 
-Our work has identified over 100 security vulnerabilities in various embedded software, including network stacks.
+> Our work has identified over 100 security vulnerabilities in various embedded software, including network stacks.
 
 #### Publications
 * [An Empirical Study on the Use of Static Analysis Tools in Open Source Embedded Software (ISSTA '25)](../files/emsast.pdf)
@@ -33,11 +33,12 @@ Our work has identified over 100 security vulnerabilities in various embedded so
 * [Towards Rehosting Embedded Applications as Linux Applications (DSN Disrupt '23)](../files/dsndisrupt.pdf)
 
 ### Developer Support
+In this thrust, we are explore following questions related to developer perspectives on securing embedded systems.
 What challenges do developers face in engineering secure embedded systems?
 What mistakes do developers make in designing embedded systems?
 Can we develop tools and techniques to assist developers?
 
-These are a few questions we are exploring as part of this thrust.
+> We identified several open-problems in using Rust for embedded systems.
 
 #### Publications
 * [Rust for embedded systems -- current state, challenges, and open-problems (CCS '24)](../files/rustembedccs.pdf).
@@ -59,12 +60,14 @@ Specifically, vulnerability detection and prevention.
 We are currently exploring dynamic analysis (fuzzing) based techniques to test DXE drivers and services holistically.
 We are also exploring techniques for automatically adding Checked C annotations to the UEFI codebase to prevent spatial safety vulnerabilities.
 
+> We found 20 security vulnerabilities in the latest version of EDK-2.
+
 #### Publications
 * [FuzzUEr: Enabling Fuzzing of UEFI Interfaces (NDSS '25)](../files/fuzzuerr.pdf).
 
 ### Supported By
 
-![DARPA](../images/darpa.jpeg) ![Rolls Royce](../images/rr.png)
+![NSF](../images/nsf.jpeg) ![DARPA](../images/darpa.jpeg) ![Rolls Royce](../images/rr.png)
 
 ## Securing Continuous Integration Workflows
 ----
@@ -73,6 +76,8 @@ Continuous Integration (CI) has become essential to the modern software developm
 Developers frequently misconfigure workflows resulting in severe security issues, which can have devastating effects resulting in supply-chain attacks.
 The extreme diversity of CI platforms and the supported features further exacerbate the problem and make it challenging to specify and verify security properties across different CI platforms uniformly.
 In this area, we aim to addresses the problem by defining the desired security properties of a workflow and developing platform-independent techniques to verify and enforce the security properties.
+
+> We found thousands of security vulnerabilities in various open-source GitHub workflows. More details [here](https://secureci.org/).
 
 ### Publications
 ----
@@ -92,6 +97,8 @@ We view fuzzing as a way to solve optimization problems intelligently. Provided 
 
 In addition, we also explore other (more traditional) uses of fuzzing and apply it to dynamic testing of complex systems, such as IoT devices, Kernel Drivers, Network Programs, etc.
 We explore different techniques that will enable a security researcher to help the fuzzing techniques to test these complex programs effectively. We have exciting ideas in this direction. Get in touch to know more.
+
+> We used fuzzing techniques to generate thousands of semantically equivalent binaries through existing compilers.
 
 #### Publications
 * [Feedback-Guided Software Fault Injection (AsiaCCS '24)](../files/fuzzerr.pdf)
