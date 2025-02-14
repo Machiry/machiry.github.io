@@ -1,7 +1,7 @@
 ---
 title: "Operating System Engineering"
 collection: teaching
-type: "Undergraduate course (Spring '21, '22, '24)"
+type: "Undergraduate course (Spring '25, '24, '22, '21)"
 permalink: /teaching/ose
 location: "West Lafayette, USA"
 ---
