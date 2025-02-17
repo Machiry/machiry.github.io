@@ -26,8 +26,8 @@ My solutions have a flavor of static/dynamic program analysis, fuzzing, type sys
 * Qualified (as part of Shellphish) for __DARPA AixCC Finals.__
 * __Third Place__ (as part of Shellphish) __in DARPA CGC Competition.__
 
-### Research Highlights
-* FuzzUEr found __20 zero day security issues in the latest version of EDK-II.__
+### Recent Research Highlights
+* FuzzUEr (accepted at NDSS 2025) found __20 zero day security issues in the latest version of EDK-II.__
 * ARGUS (presented at USENIX Security 2023) found __thousands of (previously unknown) Command Injection vulnerabilities in GitHub Workflows__ of various open-source repositories.
 
 ### Recent News
