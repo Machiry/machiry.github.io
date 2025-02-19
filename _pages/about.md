@@ -31,9 +31,9 @@ My solutions have a flavor of static/dynamic program analysis, fuzzing, type sys
 * ARGUS (presented at USENIX Security 2023) found __thousands of (previously unknown) Command Injection vulnerabilities in GitHub Workflows__ of various open-source repositories.
 
 ### Recent News
+* __MadCap__ got accepted at __CODASPY 2025__.
 * __2 papers (e3c and SAST for embedded)__ got accepted at __ISSTA 2025__.
 * __2 papers (FuzzUErr and VeriBin)__ got accepted at __NDSS 2025__.
-* __Rust for Embedded__ got accepted at __ACM CCS 2024__.
 
 
 
