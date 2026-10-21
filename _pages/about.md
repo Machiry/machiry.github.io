@@ -34,12 +34,10 @@ I am grateful to the funding from NSF, DARPA, Amazon, Rolls Royce, and Qualcomm 
 * ARGUS (presented at USENIX Security 2023) found __thousands of (previously unknown) Command Injection vulnerabilities in GitHub Workflows__ of various open-source repositories.
 
 ### Recent News
-* __DisTrust__ got accepted at __DSN 2026__.
 * __AnBridge__ got accepted at __DSN 2026__.
 * __Bootloader SoK__ got accepted at __IEEE S&P 2026__.
 * __Cosseter__ got accepted at __IEEE S&P 2026__.
 * __Unit Proof Work__ got accepted at __ICSE 2026__.
-* __Sid__ got __Bloomberg Security Fellowship 2025__.
 
 
 
