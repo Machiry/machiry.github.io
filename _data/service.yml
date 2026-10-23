@@ -31,6 +31,10 @@ program_committees:
       - https://www.ndss-symposium.org/ndss{yyyy}/leadership/technical-program-committee/
   - name: USENIX ATC
     years: [2025, 2024]
+  - name: ASPLOS
+    years: [2026]
+    check:
+      - https://www.asplos-conference.org/asplos{yyyy}/committee.html
   - name: OOPSLA
     years: [2025]
     researchr: OOPSLA Review Committee
@@ -49,7 +53,9 @@ program_committees:
     check:
       - https://middleware-conf.github.io/{yyyy}/program-committee/
   - name: RAID
-    years: [2022]
+    years: [2026, 2024, 2022]
+    check:
+      - https://raid{yyyy}.github.io/
   - name: WOOT
     years: [2024, 2023, 2022]
     check:
@@ -60,6 +66,8 @@ program_committees:
     years: [2023]
     check:
       - https://esorics{yyyy}.org/
+  - name: AIDC Workshop
+    years: [2026]
 
 # `venue` links a chair role to a program committee entry above, so the
 # checker treats that year as already recorded.

@@ -18,7 +18,7 @@ import urllib.request
 
 import yaml
 
-NAME = "Aravind Machiry"
+NAME = "Machiry"  # some pages list names last-first
 UA = {"User-Agent": "Mozilla/5.0 (machiry.github.io service-page checker)"}
 LINK = re.compile(r'href="([^"#]+)"[^>]*>(.*?)</a>', re.I | re.S)
 COMMITTEE = re.compile(r"committee|organi[sz]|leadership|people|prog(ram)?-?c\b", re.I)
