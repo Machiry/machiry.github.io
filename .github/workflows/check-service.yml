@@ -1,0 +1,31 @@
+name: Check program committees
+
+# Monthly, look for new program committee memberships and open a pull
+# request that adds them to _data/service.yml.
+on:
+  schedule:
+    - cron: "0 14 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: python scripts/check_service.py --summary "$RUNNER_TEMP/summary.md"
+      - run: cat "$RUNNER_TEMP/summary.md" >> "$GITHUB_STEP_SUMMARY"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: service-update
+          commit-message: Add new program committee memberships
+          title: New program committee memberships
+          body-path: ${{ runner.temp }}/summary.md
+          add-paths: _data/service.yml

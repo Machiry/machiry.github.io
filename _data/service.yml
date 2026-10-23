@@ -1,0 +1,74 @@
+# Data for the Service page (_pages/service.md).
+#
+# Keep each `years:` list on one line, newest first: scripts/check_service.py
+# edits these lines in place when it finds a new committee membership.
+#
+# `check` lists committee pages to search, with {yyyy} (e.g. 2026) or {yy}
+# (e.g. 26) for the year. A page is searched for the name, and so are the
+# committee-looking links on it. Venues without `check` are updated by hand.
+#
+# `researchr` matches a role on the conf.researchr.org profile below.
+
+researchr_profile: https://conf.researchr.org/profile/aravindmachiry
+
+program_committees:
+  - name: USENIX Security
+    years: [2026, 2025, 2024]
+    check:
+      - https://www.usenix.org/conference/usenixsecurity{yy}/call-for-papers
+  - name: IEEE S&P
+    years: [2027, 2026, 2025, 2024]
+    check:
+      - https://sp{yyyy}.ieee-security.org/cfpapers.html
+  - name: ACM CCS
+    years: [2025, 2024, 2023]
+    check:
+      - https://www.sigsac.org/ccs/CCS{yyyy}/
+      - https://www.sigsac.org/ccs/CCS{yyyy}/program-committee/
+  - name: ISOC NDSS
+    years: [2027, 2025, 2024]
+    check:
+      - https://www.ndss-symposium.org/ndss{yyyy}/leadership/technical-program-committee/
+  - name: USENIX ATC
+    years: [2025, 2024]
+  - name: OOPSLA
+    years: [2025]
+    researchr: OOPSLA Review Committee
+  - name: ACSAC
+    years: [2025, 2024, 2023]
+    check:
+      - https://www.acsac.org/{yyyy}/committees/program/
+  - name: SecDev
+    years: [2023]
+    check:
+      - https://secdev.ieee.org/{yyyy}/
+  - name: AsiaCCS
+    years: [2023, 2022]
+  - name: Middleware
+    years: [2022]
+    check:
+      - https://middleware-conf.github.io/{yyyy}/program-committee/
+  - name: RAID
+    years: [2022]
+  - name: WOOT
+    years: [2024, 2023, 2022]
+    check:
+      - https://www.usenix.org/conference/woot{yy}/call-for-papers
+  - name: EuroSec
+    years: [2023, 2022]
+  - name: ESORICS
+    years: [2023]
+    check:
+      - https://esorics{yyyy}.org/
+
+# `venue` links a chair role to a program committee entry above, so the
+# checker treats that year as already recorded.
+chairs:
+  - name: ISOC NDSS (Associate Program Chair)
+    venue: ISOC NDSS
+    years: [2026]
+  - name: FTA Workshop (Co-located with ISSTA/SPLASH) (Organizing Co-chair)
+    years: [2026]
+    researchr: Organizing Committee within the Firmware Testing and Analysis
+  - name: BAR Workshop (Co-located with NDSS)
+    years: [2023, 2022]

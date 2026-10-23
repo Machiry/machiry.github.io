@@ -12,13 +12,15 @@ I strive my best to do it, and the following are a few instances:
 
 > Reviewing and providing feedback on submitted papers.
 
-USENIX Security (2025, 2024), IEEE S&P (2025, 2024), ACM CCS (2025, 2024, 2023), ISOC NDSS (2025, 2024), USENIX ATC (2025, 2024), OOPSLA (2025), ACSAC (2023), SecDev (2023), AsiaCCS (2023, 2022), Middleware (2022), RAID (2022), WOOT (2023, 2022), EuroSec(2023, 2022), ESORICS (2023)
+{% for v in site.data.service.program_committees %}{{ v.name }} ({{ v.years | join: ", " }}){% unless forloop.last %}, {% endunless %}{% endfor %}
 
 ## Chair
 
 > Organizing (Reviews, Arranging Program, Funding, etc)
 
-BAR Workshop (Co-located with NDSS) (2023, 2022)
+{% for c in site.data.service.chairs %}
+* {{ c.name }} ({{ c.years | join: ", " }})
+{%- endfor %}
 
 ## University Service
 
