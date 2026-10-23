@@ -1,11 +1,35 @@
 ---
 layout: archive
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
-
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>Teaching Philosophy</h2>
+
+<p>
+System security is, by definition, an applied discipline, and learning its concepts requires hands-on training.
+My courses therefore focus on hands-on work: students learn a concept by building, breaking, and analyzing real systems.
+</p>
+
+<h2>Courses</h2>
+
+{% assign levels = "Graduate,Undergraduate" | split: "," %}
+{% for level in levels %}
+  {% assign courses = site.teaching | where: "level", level | sort: "number" %}
+  {% if courses.size > 0 %}
+  <h3>{{ level }}</h3>
+  {% for course in courses %}
+  <div class="list__item">
+    <article class="archive__item">
+      <h4 class="archive__item-title">
+        <a href="{{ course.webpage }}">{{ course.number }}: {{ course.title }}</a>
+      </h4>
+      <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ course.terms }}</p>
+      <p class="archive__item-excerpt">{{ course.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    </article>
+  </div>
+  {% endfor %}
+  {% endif %}
 {% endfor %}
