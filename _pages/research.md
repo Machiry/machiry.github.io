@@ -8,6 +8,8 @@ My research, in general, has an applied flavor.
 Specifically, a principled solution will be customized to the underlying domain to
 achieve both practical and (mostly) formal guarantees. 
 
+<img src="/images/research-wordcloud.svg" alt="Word cloud of research topics, sized by number of publications: Android, Embedded Systems, Static Analysis, Fuzzing, Vulnerability Detection, Binary Analysis, Machine Learning, UEFI and Bootloaders, Software Supply Chain, CI/CD Security, Memory Safety, and more." style="width: 100%; margin: 1em 0;">
+
 ## Embedded Systems Security
 ____
 Internet of Things (IoT) devices or, in general, embedded devices are ubiquitous and are part of our everyday life. 

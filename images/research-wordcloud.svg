@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" role="img" aria-labelledby="title">
+<title id="title">Research topics, sized by number of publications: Android (11), Embedded Systems (9), Static Analysis (8), Fuzzing (7), Vulnerability Detection (7), Binary Analysis (7), Machine Learning (7), UEFI &amp; Bootloaders (5), Software Supply Chain (5), CI/CD Security (5), Memory Safety (4), Linux Kernel (3), Trusted Execution (3), Formal Verification (3), Empirical Studies (3), Program Testing (3), Patch Analysis (2), Hardware Security (2), Type Systems (2), Autonomous Hacking (2), Distributed Systems (2), Rust (1), Privacy (1)</title>
+<g font-family='-apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' font-weight="700" text-anchor="middle">
+<text x="450" y="184" font-size="40" fill="#2a6f86">Android</text>
+<text x="477" y="228" font-size="37" fill="#52adc8">Embedded Systems</text>
+<text x="440" y="139" font-size="36" fill="#494e52">Static Analysis</text>
+<text x="616" y="179" font-size="34" fill="#8a6d2f">Fuzzing</text>
+<text x="462" y="268" font-size="34" fill="#2a6f86">Vulnerability Detection</text>
+<text x="382" y="98" font-size="34" fill="#52adc8">Binary Analysis</text>
+<text x="180" y="182" font-size="34" fill="#494e52">Machine Learning</text>
+<text x="420" y="58" font-size="30" fill="#8a6d2f">UEFI &amp; Bootloaders</text>
+<text x="487" y="305" font-size="30" fill="#2a6f86">Software Supply Chain</text>
+<text x="654" y="97" font-size="30" fill="#52adc8">CI/CD Security</text>
+<text x="713" y="131" font-size="28" fill="#494e52">Memory Safety</text>
+<text x="197" y="140" font-size="25" fill="#2a6f86">Linux Kernel</text>
+<text x="140" y="217" font-size="25" fill="#52adc8">Trusted Execution</text>
+<text x="575" y="24" font-size="25" fill="#494e52">Formal Verification</text>
+<text x="704" y="60" font-size="25" fill="#8a6d2f">Empirical Studies</text>
+<text x="169" y="306" font-size="25" fill="#2a6f86">Program Testing</text>
+<text x="781" y="167" font-size="22" fill="#52adc8">Patch Analysis</text>
+<text x="365" y="334" font-size="22" fill="#494e52">Hardware Security</text>
+<text x="778" y="200" font-size="22" fill="#8a6d2f">Type Systems</text>
+<text x="251" y="24" font-size="22" fill="#2a6f86">Autonomous Hacking</text>
+<text x="683" y="332" font-size="22" fill="#52adc8">Distributed Systems</text>
+<text x="699" y="225" font-size="13" fill="#494e52">Rust</text>
+<text x="201" y="240" font-size="13" fill="#8a6d2f">Privacy</text>
+</g>
+</svg>
