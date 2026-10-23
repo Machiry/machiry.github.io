@@ -1,0 +1,108 @@
+# Settings for scripts/check_publications.py, which proposes new papers for
+# the Publications page (_publications/index.html).
+
+author_family: Machiry
+author_display: Aravind Machiry
+openalex_author: A5071486684
+
+# Venue labels, matched in order against the venue name (put the more
+# specific names first). For the ACM journal-style proceedings, the issue
+# name (e.g. ISSTA, FSE) is used instead.
+venues:
+  - match: Dependable Systems and Networks Workshops
+    label: DSN-W
+  - match: Dependable Systems and Networks
+    label: DSN
+  - match: European Symposium on Security and Privacy
+    label: EuroS&P
+  - match: Symposium on Security and Privacy
+    label: S&P
+  - match: Network and Distributed System Security
+    label: NDSS
+  - match: USENIX Security
+    label: USENIX Security
+  - match: Asia Conference on Computer and Communications Security
+    label: AsiaCCS
+  - match: Computer and Communications Security
+    label: CCS
+  - match: Annual Computer Security Applications
+    label: ACSAC
+  - match: Research in Attacks, Intrusions
+    label: RAID
+  - match: Detection of Intrusions and Malware
+    label: DIMVA
+  - match: European Symposium on Research in Computer Security
+    label: ESORICS
+  - match: Availability, Reliability and Security
+    label: ARES
+  - match: International Conference on Software Engineering
+    label: ICSE
+  - match: Software Testing and Analysis
+    label: ISSTA
+  - match: Foundations of Software Engineering
+    label: FSE
+  - match: Automated Software Engineering
+    label: ASE
+  - match: Mining Software Repositories
+    label: MSR
+  - match: Symposium on Applied Computing
+    label: SAC
+
+# Papers already handled: on the page, or deliberately left off it. Matched
+# by DOI or title. Add a paper here to stop it from being proposed again.
+known:
+  - {doi: "10.1109/sp63933.2026.00163", title: "SoK: All You Ever Wanted to Know About Bootloader Security but Were Afraid to Ask"}
+  - {doi: "10.1109/dsn-w70714.2026.00053", title: "DisTrust: Adaptive Trust-Based Verification for Resilient Distributed Computation"}
+  - {doi: "10.1109/dsn69566.2026.00081", title: "AnBridge: Protecting On-Device AI with Android Virtualization Framework"}
+  - {doi: "10.1145/3744916.3764525", title: "Do Unit Proofs Work? An Empirical Study of Compositional Bounded Model Checking for Memory Safety Verification"}
+  - {doi: "10.1109/sp63933.2026.00067", title: "COSSETER: GitHub Actions Permission Reduction Using Demand-Driven Static Analysis"}
+  - {doi: "10.14722/ndss.2025.240400", title: "FUZZUER: Enabling Fuzzing of UEFI Interfaces on EDK-2"}
+  - {doi: "10.1145/3672608.3707956", title: "Detection of Device Triggerable Vulnerabilities in Android Companion Apps through Interactive Triaging"}
+  - {doi: "10.1145/3728929", title: "Adding Spatial Memory Safety to EDK II through Checked C (Experience Paper)"}
+  - {doi: "10.1109/raid67961.2025.00036", title: "TypeFlexer: Type Directed Flexible Program Partitioning"}
+  - {doi: "10.1007/978-3-031-97623-0_4", title: "FlexGE: Towards Secure and Flexible Model Partition for Deep Neural Networks"}
+  - {doi: "10.14722/ndss.2025.230359", title: "VeriBin: Adaptive Verification of Patches at the Binary Level"}
+  - {doi: "10.1145/3728923", title: "Finding 709 Defects in 258 Projects: An Experience Report on Applying CodeQL to Open-Source Embedded Software (Experience Paper)"}
+  - {doi: "10.1109/icse55347.2025.00148", title: "ZTDJAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies"}
+  - {doi: "10.1145/3626232.3658640", title: "Aunor: Converting Rust crates to [nostd] at scale"}
+  - {doi: "10.1145/3664476.3664497", title: "On the Effectiveness of Large Language Models for GitHub Workflows"}
+  - {doi: "10.1145/3626232.3653268", title: "Precision Guided Approach to Mitigate Data Poisoning Attacks in Federated Learning"}
+  - {doi: "10.1145/3634737.3637650", title: "Fuzzing API Error Handling Behaviors using Coverage Guided Fault Injection"}
+  - {doi: "10.1007/978-3-031-80020-7_13", title: "Insights from Running 24 Static Analysis Tools on Open Source Software Repositories"}
+  - {doi: "10.1145/3658644.3690275", title: "Rust for Embedded Systems: Current State and Open Problems"}
+  - {doi: "10.1145/3714393.3726508", title: "Multi-Device Context-Sensitive Attacks Against Privacy"}
+  - {doi: "10.1145/3589610.3596271", title: "Towards Automated Identification of Layering Violations in Embedded Applications (WIP)"}
+  - {doi: "10.1109/dsn-s58398.2023.00031", title: "Towards Rehosting Embedded Applications as Linux Applications"}
+  - {doi: "10.1109/sp46215.2023.10179302", title: "TEEzz: Fuzzing Trusted Applications on COTS Android Devices"}
+  - {doi: "10.1109/ase56229.2023.00095", title: "Systematically Detecting Packet Validation Vulnerabilities in Embedded Network Stacks"}
+  - {doi: "10.1145/3579856.3582834", title: "Security Properties of Virtual Remotes and SPOOKing their violations"}
+  - {doi: "10.1145/3551349.3561152", title: "Cornucopia : A Framework for Feedback Guided Generation of Binaries"}
+  - {doi: "10.1145/3527322", title: "C to checked C by 3c"}
+  - {doi: "10.1007/978-3-031-09484-2_1", title: "Hybrid Pruning: Towards Precise Pointer and Taint Analysis"}
+  - {doi: "10.1145/3488932.3524054", title: "PacJam"}
+  - {doi: "10.5281/zenodo.18409332", title: "Detection of Vulnerable GitHub Workflows using Machine Learning"}
+  - {doi: "10.1145/3448300.3467821", title: "Toward a secure crowdsourced location tracking system"}
+  - {doi: "10.1109/sp40001.2021.00090", title: "ARBITRAR: User-Guided API Misuse Detection"}
+  - {doi: "10.1145/3433210.3453115", title: "Bran: Reduce Vulnerability Search Space in Large Open Source Repositories by Learning Bug Symptoms"}
+  - {doi: "10.1145/3433210.3437532", title: "Conware: Automated Modeling of Hardware Peripherals"}
+  - {doi: "10.1109/dsn48987.2021.00051", title: "Glitching Demystified: Analyzing Control-flow-based Glitching Attacks and Defenses"}
+  - {doi: "10.1145/3465413.3488571", title: "Tarnhelm: Isolated, Transparent & Confidential Execution of Arbitrary Code in ARM's TrustZone"}
+  - {doi: "10.1109/sp40001.2021.00066", title: "Diane: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices"}
+  - {doi: "10.1109/sp40000.2020.00038", title: "SPIDER: Enabling Fast Patch Propagation In Related Software Repositories"}
+  - {doi: "10.1109/cns48642.2020.9162273", title: "Exploring Abstraction Functions in Fuzzing"}
+  - {doi: "10.1109/cns48642.2020.9162246", title: "TRUST.IO: Protecting Physical Interfaces on Cyber-physical Systems"}
+  - {doi: "10.1109/sp40000.2020.00036", title: "Karonte: Detecting Insecure Multi-binary Interactions in Embedded Firmware"}
+  - {doi: "10.14722/bar.2019.23090", title: "Towards Automatically Generating a Sound and Complete Dataset for Evaluating Static Analysis Tools"}
+  - {doi: "10.1007/978-3-030-22038-9_23", title: "BinTrimmer: Towards Static Binary Debloating Through Abstract Interpretation"}
+  - {doi: "", title: "Toward the Analysis of Embedded Firmware through Automated Re-hosting"}
+  - {doi: "10.1109/spw.2018.00022", title: "Detecting Deceptive Reviews Using Generative Adversarial Networks"}
+  - {doi: "10.1145/3274694.3274731", title: "Using Loops For Malware Classification Resilient to Feature-unaware Perturbations"}
+  - {doi: "10.14722/ndss.2018.23079", title: "Broken Fingers: On the Usage of the Fingerprint API in Android"}
+  - {doi: "10.1109/msp.2018.1870858", title: "Mechanical Phish: Resilient Autonomous Hacking"}
+  - {doi: "10.1145/3133956.3134069", title: "DIFUZE"}
+  - {doi: "10.14722/ndss.2017.23225", title: "Ramblr: Making Reassembly Great Again"}
+  - {doi: "10.14722/ndss.2017.23227", title: "BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments"}
+  - {doi: "", title: "DR. CHECKER: A Soundy Analysis for Linux Kernel Drivers"}
+  - {doi: "", title: "Bootstomp: On the security of bootloaders in mobile devices"}
+  - {doi: "10.1145/2804345.2804355", title: "CLAPP: characterizing loops in Android applications (invited talk)"}
+  - {doi: "10.1145/2491411.2491450", title: "Dynodroid: an input generation system for Android apps"}
