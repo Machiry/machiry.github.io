@@ -106,3 +106,4 @@ known:
   - {doi: "", title: "Bootstomp: On the security of bootloaders in mobile devices"}
   - {doi: "10.1145/2804345.2804355", title: "CLAPP: characterizing loops in Android applications (invited talk)"}
   - {doi: "10.1145/2491411.2491450", title: "Dynodroid: an input generation system for Android apps"}
+  - {doi: "10.1007/978-3-032-42929-2_1", title: "Democratizing False Positives Filtering Through Learning Assisted Reasoning"}
