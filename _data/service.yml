@@ -21,7 +21,7 @@ program_committees:
     check:
       - https://sp{yyyy}.ieee-security.org/cfpapers.html
   - name: ACM CCS
-    years: [2025, 2024, 2023]
+    years: [2026, 2025, 2024, 2023]
     check:
       - https://www.sigsac.org/ccs/CCS{yyyy}/
       - https://www.sigsac.org/ccs/CCS{yyyy}/program-committee/

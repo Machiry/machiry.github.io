@@ -18,6 +18,7 @@ My solutions have a flavor of static/dynamic program analysis, fuzzing, type sys
 I am grateful to the funding from NSF, DARPA, Amazon, Rolls Royce, and Qualcomm for enabling our team to do amazing research and create long-lasting impact.
 
 ### Selected Academic Recognitions
+* __Top Reviewer Award__ at [ACM CCS 2026](https://www.sigsac.org/ccs/CCS2026/program/awards.html).
 * __Test of Time Award__ for DynoDroid at FSE 2023.
 * __Distinguished Paper Award__ for 3c at OOPSLA 2022.
 * __Distinguished Paper Award__ for Ramblr at NDSS 2017.
@@ -34,6 +35,7 @@ I am grateful to the funding from NSF, DARPA, Amazon, Rolls Royce, and Qualcomm 
 * ARGUS (presented at USENIX Security 2023) found __thousands of (previously unknown) Command Injection vulnerabilities in GitHub Workflows__ of various open-source repositories.
 
 ### Recent News
+* Received the __Top Reviewer Award__ at __ACM CCS 2026__.
 * __AnBridge__ got accepted at __DSN 2026__.
 * __Bootloader SoK__ got accepted at __IEEE S&P 2026__.
 * __Cosseter__ got accepted at __IEEE S&P 2026__.
